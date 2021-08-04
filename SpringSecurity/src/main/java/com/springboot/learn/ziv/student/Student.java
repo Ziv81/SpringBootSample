@@ -1,4 +1,4 @@
-package com.springboot.learn.ziv;
+package com.springboot.learn.ziv.student;
 
 import lombok.Data;
 

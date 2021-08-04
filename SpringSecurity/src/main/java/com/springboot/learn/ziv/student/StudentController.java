@@ -1,5 +1,6 @@
-package com.springboot.learn.ziv;
+package com.springboot.learn.ziv.student;
 
+import com.springboot.learn.ziv.student.Student;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
