@@ -2,6 +2,7 @@ plugins {
 	id 'org.springframework.boot' version '2.6.0-SNAPSHOT'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
+	id "io.freefair.lombok" version "6.1.0-m3"
 }
 
 group = 'com.springboot.learn.ziv'
@@ -15,9 +16,14 @@ repositories {
 }
 
 dependencies {
+	//Spring
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+
+
+	//Test
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
-	implementation 'org.springframework.boot:spring-boot-starter-web'
 }
 
 test {
