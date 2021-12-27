@@ -9,7 +9,9 @@
 1. Install VMware Workstation Player
 
 ![](https://i.imgur.com/PagRVoL.jpg)
+<br/>
 ![](https://i.imgur.com/WUt5YpV.jpg)
+<br/>
 ![](https://i.imgur.com/SwBf1P3.jpg)
 
 
